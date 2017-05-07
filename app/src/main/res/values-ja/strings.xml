@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Movie</string>
+
+    <string name="menu_sort">ソート</string>
+    <string name="menu_settings">設定</string>
+
+    <string name="menu_sort_dialog_title">ソート順を選択</string>
+    <string name="menu_sort_title_asc">タイトル(昇順)</string>
+    <string name="menu_sort_title_desc">タイトル(降順)</string>
+    <string name="menu_sort_data_asc">ファイルパス(昇順)</string>
+    <string name="menu_sort_data_desc">ファイルパス(降順)</string>
+    <string name="menu_sort_size_asc">ファイルサイズ(昇順)</string>
+    <string name="menu_sort_size_desc">ファイルサイズ(降順)</string>
+    <string name="menu_sort_duration_asc">動画の長さ(昇順)</string>
+    <string name="menu_sort_duration_desc">動画の長さ(降順)</string>
+    <string name="menu_sort_date_added_asc">追加日(昇順)</string>
+    <string name="menu_sort_date_added_desc">追加日(降順)</string>
+    <string name="menu_sort_date_modified_asc">ファイル日付(昇順)</string>
+    <string name="menu_sort_date_modified_desc">ファイル日付(降順)</string>
+
+    <string name="pref_resume_title">レジューム設定</string>
+    <string name="pref_resume_checkbox_title">レジューム機能</string>
+    <string name="pref_resume_checkbox_summary">レジューム機能を有効にする</string>
+    <string name="pref_clear_resume_title">レジューム情報の初期化</string>
+    <string name="pref_clear_resume_summary">レジューム情報を初期化します</string>
+    <string name="pref_clear_resume_dialog_title">レジューム情報の初期化</string>
+    <string name="pref_clear_resume_dialog_message">初期化しますか？</string>
+
+    <string name="pref_resume_dialog_title">再生</string>
+    <string name="pref_resume_dialog_message">前回の続きから再生しますか？</string>
+    <string name="pref_resume_dialog_yes">はい(続きから)</string>
+    <string name="pref_resume_dialog_no">いいえ(最初から)</string>
+
+    <string name="pref_toast_title">Toast設定</string>
+    <string name="pref_show_toast_title">Toastを表示する</string>
+    <string name="pref_show_toast_summary">再生開始時にToastを表示する</string>
+</resources>

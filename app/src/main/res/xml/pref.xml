@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="@string/pref_resume_title">
+		<CheckBoxPreference
+			android:key="use_resume_key"
+			android:title="@string/pref_resume_checkbox_title"
+			android:summary="@string/pref_resume_checkbox_summary" />
+		<jp.oka.k.mighty.android.movie.ClearResumeDialog
+			android:title="@string/pref_clear_resume_title"
+			android:summary="@string/pref_clear_resume_summary"
+			android:dialogTitle="@string/pref_clear_resume_dialog_title"
+			android:dialogMessage="@string/pref_clear_resume_dialog_message"
+			android:positiveButtonText="@android:string/yes"
+			android:negativeButtonText="@android:string/no"
+			/>
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/pref_toast_title">
+		<CheckBoxPreference
+			android:key="show_toast_key"
+			android:title="@string/pref_show_toast_title"
+			android:summary="@string/pref_show_toast_summary" />
+	</PreferenceCategory>
+</PreferenceScreen>
+<!--
+android:dialogIcon  The icon for the dialog.  
+android:dialogLayout  A layout to be used as the content View for the dialog.  
+android:dialogMessage  The message in the dialog.  
+android:dialogTitle  The title in the dialog.  
+android:negativeButtonText  The negative button text for the dialog.  
+android:positiveButtonText  The positive button text for the dialog.  
+-->

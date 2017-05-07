@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+	<TableLayout 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:stretchColumns="1" 
+		android:layout_weight="1">
+
+		<TableRow>
+			<TextView android:id="@+id/file_text_title" 
+				android:textSize="18sp"
+				android:text="text1" 
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content" 
+				android:stretchColumns="1"
+				android:textColor="@color/color_folder_name"
+			/>
+		</TableRow>
+
+		<TableRow>
+			<TextView android:id="@+id/file_text_path" 
+				android:textSize="14sp"
+				android:text="text2"
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:stretchColumns="1" 
+			/>
+		</TableRow>
+
+		<TableRow>
+			<TextView android:id="@+id/file_text_duration" 
+				android:textSize="14sp"
+				android:text="text3" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:stretchColumns="1" 
+				android:layout_weight="1"
+				/>
+			
+			<TextView android:id="@+id/file_text_size" 
+				android:textSize="14sp"
+				android:text="text4" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"  
+				android:stretchColumns="1" 
+				android:layout_gravity="right"
+				/>
+		</TableRow>
+
+	</TableLayout>
+
+</LinearLayout> 
